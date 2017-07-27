@@ -40,41 +40,7 @@
 }
          body {
 		background-attachment: fixed;
-         }
-	      button {
-  margin-left: 250px;
-  font-family: inherit;
-   }
-	      div {
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%,-50%);
-  width: 480px;
-  height: 380px;
-  border-radius: 10px;
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.1));
-}
-   </style>
-<script>
-		var myHeading = document.querySelector('h1');
-myHeading.textContent = 'Megan Zhang';
-
-myHeading.onclick = function() {
-    alert("Welcome to my Portfolio!");
-}
-
-var btn = document.querySelector('button');
-
-function random(number) {
-  return Math.floor(Math.random()*(number+1));
-}
-
-btn.onclick = function() {
-  var rndCol = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
-  document.body.style.backgroundColor = rndCol;
-}
-
-</script>	   
+	      }	   
 
    </head>
 
@@ -83,15 +49,13 @@ btn.onclick = function() {
          <h4 style="color: mediumpurple; font-family: georgia; text-align: center"><i>17 | INTP</i></h4>
          <nav>
             <ul style="color: purple; font-size: 100%; font-family: georgia">
+	      <li><a href="https://megmegsan.github.io/Portfolio/index.html">Welcome Page</a></li>
                <li><a href="https://megmegsan.github.io/Portfolio/Core4.html">Projects</a></li>
-		<li><a href="https://megmegsan.github.io/Portfolio/index.html">JavaScript Demo</a></li>
             </ul>
          </nav>      
             <p style="text-align: center; margin-left: 100px; margin-right: 100px">Hey there, my name is Megan Zhang :). I was born in Northern California and am currently a senior at Castro Valley High School. I love math and art and am currently looking at engineering, applied mathematics, or architecture as a possible major in college (I know, I'm super indecisive). Anyway, if you are curious enough to look through my webpage, you'll probably find out a lot about me... or not. Either way enjoy your time here :).</p>
          <h4 style="color: rebeccapurple;><i>About Me</i></h4>
          <h4 style="margin-left: 30px; color: mediumpurple">Likes</h4>
-	<button style="margin-left: 30px" type="button" onclick="document.getElementById('demo').style.display='block'">Display picture</button><br>
-    <img id="demo" style="display:none" src="http://www.petakids.com/wp-content/uploads/2015/11/Baby-Bunny.jpg" alt="Baby Bunny" width="400" height="300"><br>
             <p style="margin-left: 30px; margin-right: 30px">I'll try my best not to state the obvious... I would write something like "I love dogs!" but who doesn't??</p>
                <img src="http://i2.kym-cdn.com/photos/images/newsfeed/000/674/934/422.jpg" alt="Screaming Doge" style="width: 320px; height: 240px; margin-left: 80px; border: 3px">
             <p style="margin-left: 30px; margin-right: 30px">Okay, actually, since I'm talking about animals anyway, my favorite animal is a red panda.</p>
